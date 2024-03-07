@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="test.py" method="post">
+        <label for="user">UserName</label>
+        <input type="text" name="user" id="user" placeholder="UserName" required><hr>
+        <label for="pass">Password</label>
+        <input type="password" name="pass" id="pass" placeholder="enter your password"><hr>
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone" pattern="[0-9]{3} [0-9]{3} [0-9]{5}"><hr>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required><hr>
+        <input type="reset" value="empty form">
+        <input type="submit" value="send data">
+    </form>
+</body>
+</html>
