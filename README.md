@@ -19,3 +19,12 @@ figcaption
 main
 section
 article
+(35 -37)
+    input:submit
+    h1
+    h2:h6
+    p
+    <html lang="en">
+    10 to 20
+    tabindex="0"
+    accessible rich internet application
